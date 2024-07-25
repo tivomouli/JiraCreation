@@ -5,7 +5,7 @@ import io.restassured.response.Response;
 public class JiraTicketCreation {
     public static void main(String[] args) {
         String jiraUrl = "https://jira.xperi.com";
-        String bearerToken = " "; // add bearerToken by taking team help
+        String bearerToken = ""; // add bearerToken by taking team help
         RestAssured.baseURI = jiraUrl;
         String jsonPayload = "{"
                 + "\"fields\": {"
